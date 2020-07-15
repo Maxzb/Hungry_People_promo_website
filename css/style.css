@@ -282,6 +282,7 @@ h1, h2, h3, h4, h5, h6 {
 .wrapper {
   width: 100%;
   height: 100vh;
+  min-height: 568px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -748,6 +749,18 @@ body {
   }
   .block-btn {
     margin-top: 15%;
+  }
+}
+
+@media (max-height: 679px) {
+  .menu li:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-height: 604px) {
+  .menu li:not(:last-child) {
+    margin-bottom: 20px;
   }
 }
 
