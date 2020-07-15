@@ -532,10 +532,9 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 
-.scroll {
-  overflow: hidden;
-}
-
+/* .scroll {
+   overflow: hidden;
+ } */
 /* Mobile burger */
 .mob-menu__burger {
   position: absolute;
@@ -676,6 +675,9 @@ body {
   .menu__link {
     font-size: 20px;
   }
+  .menu__link:active {
+    text-decoration: underline;
+  }
   .social-block {
     right: 7%;
     bottom: 26%;
@@ -694,7 +696,7 @@ body {
     left: -9%;
   }
   .block-btn {
-    margin-top: 15%;
+    margin-top: 8%;
   }
 }
 
@@ -762,7 +764,7 @@ body {
     margin-top: 25%;
   }
   .block-btn__book {
-    margin-bottom: 22%;
+    margin-bottom: 10%;
   }
 }
 
